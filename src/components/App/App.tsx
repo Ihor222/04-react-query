@@ -3,7 +3,7 @@ import SearchBar from "../SearchBar/SearchBar";
 import type { Movie } from "../../types/movie";
 import { fetchMovie } from "../../services/movieService";
 import { useState } from "react";
-import css from './App.module.css'
+import css from './app.module.css'
 import { Toaster } from "react-hot-toast";
 import toast from "react-hot-toast";
 import MovieModal from "../MovieModal/MovieModal";
